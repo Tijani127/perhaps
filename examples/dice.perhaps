@@ -1,0 +1,12 @@
+int main() {
+    int roll = 7;
+    print("Testing perhaps logic...");
+
+    perhaps (roll > 5, 0.7) {
+        print("Outcome A: The high-probability path succeeded.");
+    } else {
+        print("Outcome B: The low-probability fallback triggered.");
+    }
+
+    return 0;
+}

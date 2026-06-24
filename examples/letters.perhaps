@@ -1,0 +1,7 @@
+import "helpers/alphabet.perhaps";
+
+int main() {
+    int abc = alphabet();
+
+    print(abc);
+}

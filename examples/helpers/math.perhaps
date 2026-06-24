@@ -1,0 +1,15 @@
+void add(int f, int s) {
+    return f + s;
+}
+
+void subtract(int f, int s) {
+    return f - s;
+}
+
+void multiply(int f, int s) {
+    return f * s;
+}
+
+void divide(int f, int s) {
+    return f / s;
+}

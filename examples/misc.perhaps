@@ -1,0 +1,6 @@
+import "helpers/join.perhaps";
+
+int main() {
+    int res = join("a", "b");
+    print(res);
+}

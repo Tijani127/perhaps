@@ -1,0 +1,9 @@
+int main() {
+    int x = 50;
+
+    perhaps (x > 20, 0.7) {
+        print(x + " is greater than 20");
+    } else {
+        print("Better luck next time");
+    }
+}

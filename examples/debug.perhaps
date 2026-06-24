@@ -1,0 +1,14 @@
+int main() {
+    int x = 50;
+    int y = 49;
+
+    perhaps (x > y, 0.7) {
+        print(x);
+        print("is greater than");
+        print(y);
+    } else {
+        print(x);
+        print("je ne sais pas");
+        print(y);
+    }
+}
