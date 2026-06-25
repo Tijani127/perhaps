@@ -6,7 +6,7 @@ perhaps-server/
 repl/
 runs/
 uploads/
-main.perhaps/
+main.perhaps
 main.py
 main.test.js
 package-lock.json
